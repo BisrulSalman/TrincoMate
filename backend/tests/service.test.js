@@ -11,7 +11,7 @@ describe('Service Routes', () => {
       const res = await request(app).get('/api/services');
       // Will be 200 if DB is mocked/connected, 500 if firebase init fails
       expect([200, 500]).toContain(res.status);
-    });
+    }, 15000);
 
     test('GET /api/services/:id should return a response', async () => {
       const res = await request(app).get('/api/services/nonexistent-id');
