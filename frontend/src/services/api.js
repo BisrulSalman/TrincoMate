@@ -5,7 +5,7 @@ const API_URL = import.meta.env.VITE_API_URL || '/api';
 
 const api = axios.create({
   baseURL: API_URL,
-  timeout: 20000,
+  timeout: 60000,
 });
 
 // List of endpoints that don't require authentication
