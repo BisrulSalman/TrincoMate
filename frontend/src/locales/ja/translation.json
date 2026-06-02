@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "categories": "カテゴリ",
+    "about": "概要",
+    "contact": "お問い合わせ",
+    "signin": "サインイン",
+    "dark": "ダーク",
+    "light": "ライト",
+    "language": "言語"
+  },
+  "home": {
+    "tagline": "トリンコマリーでのあなたの旅行仲間",
+    "welcome": "TrincoMateへようこそ",
+    "searchPlaceholder": "TrincoMateの目的地を検索",
+    "exploreCategories": "カテゴリを探索",
+    "findNeed": "完璧な旅行に必要なものを見つけましょう",
+    "loadingCategories": "カテゴリを読み込み中..."
+  },
+  "service": {
+    "loading": "サービスの詳細を読み込み中...",
+    "serviceUnavailable": "サービスは利用できません",
+    "serviceNotFound": "サービスが見つかりませんでした。",
+    "about": "{{name}}について",
+    "facilities": "設備",
+    "contactInfo": "連絡先情報",
+    "requestBooking": "予約をリクエスト",
+    "fullName": "氏名",
+    "emailAddress": "メールアドレス",
+    "checkIn": "チェックイン",
+    "checkOut": "チェックアウト",
+    "guests": "ゲスト",
+    "saved": "保存済み",
+    "save": "保存",
+    "edit": "編集",
+    "remove": "削除",
+    "refreshing": "最新の詳細を更新しています...",
+    "pricePer": "{{type}}あたり"
+  },
+  "bookings": {
+    "myBookings": "私の予約",
+    "allBookings": "すべて",
+    "all": "すべて",
+    "pending": "保留中",
+    "approved": "承認済み",
+    "rejected": "却下",
+    "loading": "あなたの予約を読み込み中...",
+    "none": "このステータスには予約が見つかりません。",
+    "history": "予約履歴",
+    "noPast": "過去の予約が見つかりません。",
+    "pdf": "PDF",
+    "getPdf": "PDFを取得",
+    "guests": "{{count}} 人のゲスト"
+  },
+  "bookingTable": {
+    "bookingId": "予約ID",
+    "service": "サービス",
+    "type": "タイプ",
+    "date": "日付",
+    "total": "合計",
+    "status": "ステータス",
+    "receipt": "領収書"
+  },
+  "profile": {
+    "myProfile": "私のプロフィール",
+    "joined": "参加日 {{date}}",
+    "editProfile": "プロフィールを編集",
+    "saveChanges": "変更を保存",
+    "cancel": "キャンセル",
+    "email": "メール",
+    "phone": "電話",
+    "address": "住所",
+    "fullName": "氏名"
+  },
+  "status": {
+    "Pending": "保留中",
+    "Confirmed": "確認済み",
+    "Cancelled": "キャンセル済み",
+    "Completed": "完了",
+    "Approved": "承認済み",
+    "Rejected": "却下"
+  },
+  "emails": {
+    "bookingApprovedSubject": "予約が承認されました: {{service}}",
+    "bookingApprovedBody": "お知らせ：あなたの{{service}}の予約が承認されました。チェックイン：{{checkIn}} - チェックアウト：{{checkOut}}"
+  },
+  "search": {
+    "title": "検索",
+    "resultsFor": "\"{{q}}\" の検索結果",
+    "count": "{{count}} 件の結果",
+    "enterTerm": "ホームページから検索語を入力してください。",
+    "searching": "検索中...",
+    "noResults": "結果が見つかりません。より一般的な語で試してください。"
+  },
+  "dashboard": {
+    "welcomeBack": "おかえりなさい、{{name}}！",
+    "manageFromHere": "ここから旅行、プロフィール、履歴を管理します。",
+    "totalBookings": "総予約数",
+    "activeTrips": "アクティブな旅行",
+    "savedPlaces": "保存済みの場所",
+    "recentActivity": "最近のアクティビティ",
+    "viewAll": "すべて表示"
+  }
+}

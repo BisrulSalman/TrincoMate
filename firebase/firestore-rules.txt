@@ -1,0 +1,64 @@
+// Firestore Security Rules for TrincoMate Gallery and Reviews
+// Deploy these rules via Firebase Console or Firebase CLI
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // =====================
+    // GALLERY COLLECTION
+    // =====================
+    match /gallery/{document=**} {
+      // Everyone can read gallery items
+      allow read: if true;
+
+      // Only admins can create gallery items
+      allow create: if isAdmin();
+
+      // Only admins can update gallery items
+      allow update: if isAdmin();
+
+      // Only admins can delete gallery items
+      allow delete: if isAdmin();
+    }
+
+    // =====================
+    // REVIEWS COLLECTION
+    // =====================
+    match /reviews/{document=**} {
+      // Everyone can read approved reviews
+      allow read: if resource.data.approved == true || isAdmin();
+
+      // Authenticated users can submit reviews (not approved yet)
+      allow create: if isAuthenticated() && 
+                       request.resource.data.userId == request.auth.uid &&
+                       request.resource.data.approved == false &&
+                       request.resource.data.rating >= 1 &&
+                       request.resource.data.rating <= 5 &&
+                       request.resource.data.reviewText.size() >= 10;
+
+      // Only admins can approve/reject reviews
+      allow update: if isAdmin() && 
+                       (request.resource.data.approved != resource.data.approved);
+
+      // Only admins can delete reviews
+      allow delete: if isAdmin();
+    }
+
+    // =====================
+    // HELPER FUNCTIONS
+    // =====================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+
+    function getUserRole() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role;
+    }
+  }
+}

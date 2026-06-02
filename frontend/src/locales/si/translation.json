@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "ප්‍රධාන පිටුව",
+    "categories": "ප්‍රවර්ග",
+    "about": "අප ගැන",
+    "contact": "ඇමතුම",
+    "signin": "ඇතුල් වන්න",
+    "dark": "අඳුරු",
+    "light": "ආලෝකමත්",
+    "language": "භාෂාව"
+  },
+  "home": {
+    "tagline": "ත්‍රින්කோමලේ හි ඔබේ සංචාරක මිතුරා",
+    "welcome": "TrincoMate වෙත සාදරයෙන් පිලිගනිමු",
+    "searchPlaceholder": "TrincoMate ගමනාන්ත පිළිබඳ සෙවීම",
+    "exploreCategories": "වර්ග සොයා බලන්න",
+    "findNeed": "ගැලපෙන සංචාරය සඳහා ඔබට අවශ්‍ය දේ සොයා ගන්න",
+    "loadingCategories": "වර්ග පූරණය වෙමින් ඇත..."
+  },
+  "service": {
+    "loading": "සේවා විස්තර පූරණය වෙමින් ඇත...",
+    "serviceUnavailable": "සේවාව ලබා ගත නොහැක",
+    "serviceNotFound": "සේවාව හමු නොවීය.",
+    "about": "{{name}} සම්බන්ධයෙන්",
+    "facilities": "සुवිධා",
+    "contactInfo": "සම්බන්ධතා තොරතුරු",
+    "requestBooking": "බුකින් ඉල්ලීම",
+    "fullName": "සම්පූර්ණ නම",
+    "emailAddress": "ඊමේල් ලිපිනය",
+    "checkIn": "පරීක්ෂණය",
+    "checkOut": "පරීක්ෂණයෙන් පිටවීම",
+    "guests": "අමුත්තන්",
+    "saved": "සුරකින්න",
+    "save": "සුරකින්න",
+    "edit": "සංස්කරණය",
+    "remove": "ඉවත් කරන්න",
+    "refreshing": "අලුත් කරමින්...",
+    "pricePer": "{{type}} සඳහා"
+  },
+  "bookings": {
+    "myBookings": "මගේ බුකින්",
+    "allBookings": "සියල්ල",
+    "all": "සියල්ල",
+    "pending": "බලාපොරොත්තු",
+    "approved": "අනුමත",
+    "rejected": "ප්‍රතික්ෂේප කරන ලදි",
+    "loading": "ඔබේ බුකින් පූරණය වෙමින් ඇත...",
+    "none": "මෙම තත්ත්වයට අදාළ බුකින් නොමැත.",
+    "history": "බුකින් ඉතිහාසය",
+    "noPast": "කොන්දේසි ගත කළ බුකින් නොමැත.",
+    "pdf": "PDF",
+    "getPdf": "PDF ලබාගන්න",
+    "guests": "{{count}} අමුත්තන්"
+  },
+  "bookingTable": {
+    "bookingId": "බුකින් හැඳුනුම්පත",
+    "service": "සේවාව",
+    "type": "වර්ගය",
+    "date": "දිනය",
+    "total": "මුළු",
+    "status": "තත්ත්වය",
+    "receipt": "ලැබීම්"
+  },
+  "profile": {
+    "myProfile": "මගේ පැතිකඩ",
+    "joined": "සම්බන්ධ විය {{date}}",
+    "editProfile": "සමාජ පැතිකඩ සංස්කරණය කරන්න",
+    "saveChanges": "වෙනස්කම් සුරකින්න",
+    "cancel": "අවලංගු කරන්න",
+    "email": "ඊමේල්",
+    "phone": "දුරකථන",
+    "address": "ලිපිනය",
+    "fullName": "සම්පූර්ණ නම"
+  },
+  "status": {
+    "Pending": "බලාපොරොත්තු",
+    "Confirmed": "තහවුරු කරන ලදි",
+    "Cancelled": "අ취ිට කරන ලදි",
+    "Completed": "සම්පූර්ණ කළා",
+    "Approved": "අනුමත",
+    "Rejected": "ප්‍රතික්ෂේප කරන ලදි"
+  },
+  "emails": {
+    "bookingApprovedSubject": "බුකින් අනුමතයි: {{service}}",
+    "bookingApprovedBody": "ඔබේ බුකින් {{service}} අනුමත කර ඇත. පරීක්ෂාව: {{checkIn}} - පිටවීම: {{checkOut}}"
+  },
+  "search": {
+    "title": "සෙවීම",
+    "resultsFor": "Search results for \"{{q}}\"",
+    "count": "{{count}} ප්‍රතිඵල",
+    "enterTerm": "මුල් පිටුවෙන් සෙවීම් පදයක් ඇතුළත් කරන්න.",
+    "searching": "සෙවීම සිදුවෙමින්...",
+    "noResults": "ප්‍රතිඵල නැත. පුළුල් සෙවීම් උත්සාහ කරන්න."
+  },
+  "dashboard": {
+    "welcomeBack": "වෙළඳු, {{name}}!",
+    "manageFromHere": "ඔබේ වියදම්, පැතිකඩ සහ ඉතිහාසය මෙහි කළමනාකරණය කරන්න.",
+    "totalBookings": "මුළු බුකින්",
+    "activeTrips": "සක්‍රීය ගමන්",
+    "savedPlaces": "සුරකිණි ස්ථාන",
+    "recentActivity": "සමීප ක්‍රියාකාරකම්",
+    "viewAll": "සියල්ල බලන්න"
+  }
+}

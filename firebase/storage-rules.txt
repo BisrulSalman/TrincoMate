@@ -1,0 +1,40 @@
+// Firebase Storage Security Rules for TrincoMate Gallery Images
+// Deploy these rules via Firebase Console or Firebase CLI
+
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // =====================
+    // GALLERY IMAGES
+    // =====================
+    match /gallery/{allPaths=**} {
+      // Everyone can read gallery images
+      allow read: if true;
+
+      // Only authenticated admins can upload gallery images
+      allow write: if isAdmin() &&
+                      isImageFile() &&
+                      request.resource.size <= 5 * 1024 * 1024; // 5MB max
+
+      // Only admins can delete gallery images
+      allow delete: if isAdmin();
+    }
+
+    // =====================
+    // HELPER FUNCTIONS
+    // =====================
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && 
+             request.auth.token.get('customClaims', {}).get('role') == 'admin';
+    }
+
+    function isImageFile() {
+      return request.resource.contentType.matches('image/.*');
+    }
+  }
+}

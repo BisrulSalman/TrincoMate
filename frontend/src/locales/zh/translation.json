@@ -1,0 +1,12 @@
+{
+  "nav": { "home": "首页", "categories": "分类", "about": "关于", "contact": "联系", "signin": "登录", "dark": "深色", "light": "浅色", "language": "语言" },
+  "home": { "tagline": "您在特林科马利的旅游伙伴", "welcome": "欢迎使用 TrincoMate", "searchPlaceholder": "搜索 TrincoMate 目的地", "exploreCategories": "探索分类", "findNeed": "找到您完美旅行所需的一切", "loadingCategories": "正在加载分类..." },
+  "service": { "loading": "正在加载服务详情...", "serviceUnavailable": "服务不可用", "serviceNotFound": "未找到服务。", "about": "关于 {{name}}", "facilities": "设施", "contactInfo": "联系方式", "requestBooking": "请求预订", "fullName": "全名", "emailAddress": "电子邮件地址", "checkIn": "入住", "checkOut": "退房", "guests": "客人", "saved": "已保存", "save": "保存", "edit": "编辑", "remove": "移除", "refreshing": "正在刷新最新详情...", "pricePer": "每 {{type}} 的价格" },
+  "bookings": { "myBookings": "我的预订", "allBookings": "全部", "all": "全部", "pending": "待处理", "approved": "已批准", "rejected": "已拒绝", "loading": "正在加载您的预订...", "none": "未找到符合此状态的预订。", "history": "预订历史", "noPast": "未找到过去的预订。", "pdf": "PDF", "getPdf": "获取 PDF", "guests": "{{count}} 位客人" },
+  "bookingTable": { "bookingId": "预订编号", "service": "服务", "type": "类型", "date": "日期", "total": "总额", "status": "状态", "receipt": "收据" },
+  "profile": { "myProfile": "我的资料", "joined": "加入于 {{date}}", "editProfile": "编辑资料", "saveChanges": "保存更改", "cancel": "取消", "email": "电子邮件", "phone": "电话", "address": "地址", "fullName": "全名" },
+  "status": { "Pending": "待处理", "Confirmed": "已确认", "Cancelled": "已取消", "Completed": "已完成", "Approved": "已批准", "Rejected": "已拒绝" },
+  "emails": { "bookingApprovedSubject": "预订已确认：{{service}}", "bookingApprovedBody": "好消息！您对 {{service}} 的预订已被确认。入住：{{checkIn}} - 退房：{{checkOut}}" },
+  "search": { "title": "搜索", "resultsFor": "\"{{q}}\" 的搜索结果", "count": "找到 {{count}} 个结果", "enterTerm": "请在主页输入搜索词。", "searching": "搜索中…", "noResults": "未找到结果。请尝试更通用的搜索词。" },
+  "dashboard": { "welcomeBack": "欢迎回来，{{name}}！", "manageFromHere": "从这里管理您的行程、个人资料和历史。", "totalBookings": "总预订数", "activeTrips": "进行中的行程", "savedPlaces": "已保存地点", "recentActivity": "最近活动", "viewAll": "查看全部" }
+}

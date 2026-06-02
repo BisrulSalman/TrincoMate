@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "முகப்பு",
+    "categories": "வகைகள்",
+    "about": "எங்களைப் பற்றி",
+    "contact": "தொடர்பு",
+    "signin": "உள்நுழைவு",
+    "dark": "இருள்",
+    "light": "வெளிச்சம்",
+    "language": "மொழி"
+  },
+  "home": {
+    "tagline": "டிரிண்கோமாலேல் உங்கள் பயண தோழன்",
+    "welcome": "TrincoMate-க்கு வரவேற்கிறோம்",
+    "searchPlaceholder": "TrincoMate இடங்களைத் தேடவும்",
+    "exploreCategories": "வகைகளை ஆராயுங்கள்",
+    "findNeed": "சரியான பயணத்திற்காக தேவையானதை கண்டுகொள்ளுங்கள்",
+    "loadingCategories": "வகைகள் ஏற்றப்படுகிறது..."
+  },
+  "service": {
+    "loading": "சேவை விவரங்கள் ஏற்றப்படுகிறது...",
+    "serviceUnavailable": "சேவை கிடைக்கவில்லை",
+    "serviceNotFound": "சேவை காணப்படவில்லை.",
+    "about": "{{name}} பற்றி",
+    "facilities": "வசதிகள்",
+    "contactInfo": "தொடர்பு தகவல்",
+    "requestBooking": "புகைப்படத்தின் குறிப்பு",
+    "fullName": "முழு பெயர்",
+    "emailAddress": "மின்னஞ்சல் முகவரி",
+    "checkIn": "செக்-இன்",
+    "checkOut": "செக்-அவுட்",
+    "guests": "விருந்தினர்கள்",
+    "saved": "சேமிக்கப்பட்டது",
+    "save": "சேமிக்கவும்",
+    "edit": "தொகு",
+    "remove": "அழிக்கவும்",
+    "refreshing": "புதுப்பிக்கப்படுகிறது...",
+    "pricePer": "{{type}}க்கு"
+  },
+  "bookings": {
+    "myBookings": "என் பதிவு",
+    "allBookings": "அனைத்து",
+    "all": "அனைத்து",
+    "pending": "முடிக்கப்பட்டது",
+    "approved": "அங்கீகாரம்",
+    "rejected": "நிராகரிக்கப்பட்டது",
+    "loading": "உங்கள் முன்பதிவுகள் ஏற்றப்படுகிறது...",
+    "none": "இந்த நிலையிற்கான பதிவுகள் எதுவும் இல்லை.",
+    "history": "பதிவு வரலாறு",
+    "noPast": "பழைய பதிவுகள் இல்லை.",
+    "pdf": "PDF",
+    "getPdf": "PDF பெறவும்",
+    "guests": "{{count}} விருந்தினர்கள்"
+  },
+  "bookingTable": {
+    "bookingId": "பதிவு ஐடி",
+    "service": "சேவை",
+    "type": "வகை",
+    "date": "தேதி",
+    "total": "மொத்தம்",
+    "status": "நிலை",
+    "receipt": "ரசீது"
+  },
+  "profile": {
+    "myProfile": "என் சுயவிவரம்",
+    "joined": "சேர்ந்தார் {{date}}",
+    "editProfile": "சுயவிவரத்தைத் தொகுக்கவும்",
+    "saveChanges": "மாற்றங்களைச் சேமிக்கவும்",
+    "cancel": "ரத்து செய்",
+    "email": "மின்னஞ்சல்",
+    "phone": "தொலைபேசி",
+    "address": "முகவரி",
+    "fullName": "முழு பெயர்"
+  },
+  "status": {
+    "Pending": "முடிக்கப்பட்டது",
+    "Confirmed": "உறுதிசெய்யப்பட்டது",
+    "Cancelled": "ரத்து செய்யப்பட்டது",
+    "Completed": "முடிந்தது",
+    "Approved": "அங்கீகாரம்",
+    "Rejected": "நிராகரிக்கப்பட்டது"
+  },
+  "emails": {
+    "bookingApprovedSubject": "பதிவு அங்கீகாரம்: {{service}}",
+    "bookingApprovedBody": "உங்கள் பதிவு {{service}} அங்கீகாரம் செய்யப்பட்டது. செக்-இன்: {{checkIn}} - செக்-அவுட்: {{checkOut}}"
+  },
+  "search": {
+    "title": "தேடல்",
+    "resultsFor": "Search results for \"{{q}}\"",
+    "count": "{{count}} பெறுபோர்கள்",
+    "enterTerm": "முகப்பில் தேடல் சொற்றொடரை உள்ளிடவும்.",
+    "searching": "தேடப்படுகிறது…",
+    "noResults": "தவறான முடிவுகள். பொது தேடல்களை முயற்சிக்கவும்."
+  },
+  "dashboard": {
+    "welcomeBack": "வருகைஹீர், {{name}}!",
+    "manageFromHere": "உங்கள் பயணங்கள், சுயவிவரம் மற்றும் வரலாறை இங்கே மேலாண்மை செய்யவும்.",
+    "totalBookings": "மொத்த முன்பதிவுகள்",
+    "activeTrips": "செயலில் உள்ள பயணங்கள்",
+    "savedPlaces": "சேமிக்கப்பட்ட இடங்கள்",
+    "recentActivity": "சமீபத்திய செயல்பாடு",
+    "viewAll": "அனைத்தையும் காண்க"
+  }
+}

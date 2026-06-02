@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact",
+    "signin": "Sign In",
+    "dark": "Dark",
+    "light": "Light",
+    "language": "Language"
+  },
+  "home": {
+    "tagline": "Your Travel Companion in Trincomalee",
+    "welcome": "Welcome to TrincoMate",
+    "searchPlaceholder": "Search TrincoMate destinations",
+    "exploreCategories": "Explore Categories",
+    "findNeed": "Find what you need for the perfect trip",
+    "loadingCategories": "Loading categories..."
+  },
+  "service": {
+    "loading": "Loading service details...",
+    "serviceUnavailable": "Service unavailable",
+    "serviceNotFound": "Service not found.",
+    "about": "About {{name}}",
+    "facilities": "Facilities",
+    "contactInfo": "Contact Information",
+    "requestBooking": "Request Booking",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "saved": "Saved",
+    "save": "Save",
+    "edit": "Edit",
+    "remove": "Remove",
+    "refreshing": "Refreshing latest details...",
+    "pricePer": "per {{type}}"
+  },
+  "search": {
+    "title": "Search",
+    "resultsFor": "Search results for \"{{q}}\"",
+    "count": "{{count}} result(s) found",
+    "enterTerm": "Enter a search term from the homepage.",
+    "searching": "Searching…",
+    "noResults": "No results found. Try broader search terms."
+  },
+  "bookings": {
+    "myBookings": "My Bookings",
+    "allBookings": "All",
+    "all": "All",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "loading": "Loading your bookings...",
+    "none": "No bookings found for this status.",
+    "history": "Booking History",
+    "noPast": "No past bookings found.",
+    "pdf": "PDF",
+    "getPdf": "Get PDF",
+    "guests": "{{count}} Guest(s)"
+  },
+  "bookingTable": {
+    "bookingId": "Booking ID",
+    "service": "Service",
+    "type": "Type",
+    "date": "Date",
+    "total": "Total",
+    "status": "Status",
+    "receipt": "Receipt"
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "joined": "Joined {{date}}",
+    "editProfile": "Edit Profile",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "fullName": "Full Name"
+  },
+  "dashboard": {
+    "welcomeBack": "Welcome back, {{name}}!",
+    "manageFromHere": "Manage your trips, profile, and history from here.",
+    "totalBookings": "Total Bookings",
+    "activeTrips": "Active Trips",
+    "savedPlaces": "Saved Places",
+    "recentActivity": "Recent Activity",
+    "viewAll": "View All"
+  },
+  "status": {
+    "Pending": "Pending",
+    "Confirmed": "Confirmed",
+    "Cancelled": "Cancelled",
+    "Completed": "Completed",
+    "Approved": "Approved",
+    "Rejected": "Rejected"
+  },
+  "emails": {
+    "bookingApprovedSubject": "Booking approved: {{service}}",
+    "bookingApprovedBody": "Good news! Your booking for {{service}} has been approved. Check-in: {{checkIn}} - Check-out: {{checkOut}}"
+  }
+}
