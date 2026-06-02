@@ -132,3 +132,4 @@ npm run build
 - The frontend uses `VITE_API_URL` to find the backend API.
 - The backend uses Firebase Admin to access Firestore and Storage.
 - If you add or change environment values, restart the development servers.
+"# TrincoMate" 
