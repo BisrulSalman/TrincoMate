@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 
 const available = ['en','ta','si','de','fr','ru','zh','ja','it','es'];
 
-const languageResources = import.meta.glob('./locales/*/translation.json', { as: 'raw' });
+const languageResources = import.meta.glob('./locales/*/translation.json', { query: '?raw', import: 'default' });
 
 const loadLanguage = async (lng) => {
   try {
