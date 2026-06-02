@@ -12,7 +12,16 @@ const server = app.listen(PORT, () => {
 });
 
 server.on('error', (err) => {
-  console.error('❌ Server error:', err);
+  if (err.code === 'EADDRINUSE') {
+    console.error(`❌ Port ${PORT} is already in use`);
+    console.log('💡 Try one of these solutions:');
+    console.log(`   1. Kill the process: lsof -ti:${PORT} | xargs kill -9`);
+    console.log(`   2. Use a different port: PORT=5001 npm run dev`);
+    console.log(`   3. Wait a few seconds and restart the server`);
+    process.exit(1);
+  } else {
+    console.error('❌ Server error:', err);
+  }
 });
 
 server.on('connection', (conn) => {
